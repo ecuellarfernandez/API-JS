@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jokes API</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>API-REST</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
-
     
+    <main>
         <div id="weather">
-            <h1 id="weather__temp"></h1>
-            <h3 id="weather__country"></h3>
-            <img id="weather__icon" width="50" height="50"></img>
+            <h2 id="weather__country"></h2>
+            <div id="weather__weather">
+                <img src="" alt="" id="weather__icon" width="50" height="50">
+                <span id="weather__temp"></span>
+            </div>
         </div>
 
-        <div class="card">
-            <h1>Random Jokes 😂👌</h1>
-
-            <p id="joke" class="loading-spin"></p>
-            
-            <button id="showJoke" class="loading-spin"></button>
+        <div id="jokes">
+            <h1>Random jokes</h1>
+            <div id="jokes__joke"></div>
+            <button id="nextJokeBtn" class="button-lg">Next joke</button>
         </div>
+    </main>
 
-
-
-    <script src="app.js"></script>
 </body>
 </html>
