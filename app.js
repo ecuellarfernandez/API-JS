@@ -97,9 +97,7 @@ async function randomJoke(){
 }
 
 async function initWeather(){
-    document.getElementById('weather').classList.add('loading');
     UIWeather.render(await openWeatherMap.get());
-    document.getElementById('weather').classList.remove('loading');
 }
 
 async function initJokes(){
@@ -110,7 +108,7 @@ async function initJokes(){
 
 document.addEventListener('click', e=>{ if(e.target.matches('#nextJokeBtn')) initJokes();});
 
-async function init(){
+function init(){
     initWeather();
     initJokes();
 }
