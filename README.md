@@ -7,8 +7,8 @@ DEMO: https://web-chistes.netlify.app/
 ## Nivel 1 ⭐
 ## Ejercicio 1 ✅
 * Crear la web de chistes, cuyo funcionamiento es:
-** Al entrar no mostrará ningún chiste. Aparecerá el título y el botón de "siguiente chiste"
-** Al pulsar el botón de "Siguiente chiste" se hará fetch a la API de chistes y se mostrará por consola el chiste en cuestión.
+* Al entrar no mostrará ningún chiste. Aparecerá el título y el botón de "siguiente chiste"
+* Al pulsar el botón de "Siguiente chiste" se hará fetch a la API de chistes y se mostrará por consola el chiste en cuestión.
 * Tip 1: usar promises o async / Awaits para esperar la respuesta de la API.
 * Tip 2: antes de usar una API en el código, es recomendable usar Postman o herramientas online para probar API, por ejemplo https://apitester.com/. Además de garantizar que funciona, verás el objeto que devuelve, para saber utilizarlo.
 
